@@ -1,8 +1,0 @@
-tensorflow-cpu
-fastapi
-uvicorn
-gunicorn
-python-multipart
-pillow
-matplotlib
-numpy
