@@ -1,8 +1,6 @@
-tensorflow-gpu
+tensorflow
 fastapi
 uvicorn
-gunicorn
 python-multipart
 pillow
-matplotlib
 numpy
