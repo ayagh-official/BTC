@@ -18,11 +18,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = tf.keras.models.load_model("./BTC_ML.h5")
+model = tf.keras.models.load_model("./VGG.h5")
 
 
 # Class names for the different skin diseases
-CLASS_NAMES = ['glioma_tumor','no_tumor','meningioma_tumor','pituitary_tumor']
+CLASS_NAMES = ['yes_tumor','no_tumor']
 
 @app.get("/ping")
 async def ping():
