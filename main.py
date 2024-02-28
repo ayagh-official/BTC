@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = tf.keras.models.load_model("./skin_diseases_model1.h5")
+model = tf.keras.models.load_model("./BTC_ML.h5")
 
 
 # Class names for the different skin diseases
